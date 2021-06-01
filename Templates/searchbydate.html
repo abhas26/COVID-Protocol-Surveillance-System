@@ -1,0 +1,45 @@
+
+    <table class="table table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th >Enroll No.</th>
+          <th >Student Name</th>
+          <th >Campus Location</th>
+          <th >Unmasked Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for x in student%}
+        <tr class="table-danger">
+          <td>{{x.en_id}}</td>
+          <td>{{x.name}}</td>
+          <td>{{x.area}}</td>
+          <td>{{x.duration}}</td>
+        </tr>
+        {% endfor %}
+        {% for x in student%}
+        <tr>
+          <td>{{x.en_id}}</td>
+          <td>{{x.name}}</td>
+          <td>{{x.area}}</td>
+          <td>{{x.duration}}</td>
+        </tr>
+        {% endfor %}
+        {% for x in student%}
+        <tr>
+          <td>{{x.en_id}}</td>
+          <td>{{x.name}}</td>
+          <td>{{x.area}}</td>
+          <td>{{x.duration}}</td>
+        </tr>
+        {% endfor %}
+        {% for x in student%}
+        <tr>
+          <td>{{x.en_id}}</td>
+          <td>{{x.name}}</td>
+          <td>{{x.area}}</td>
+          <td>{{x.duration}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
